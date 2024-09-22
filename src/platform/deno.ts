@@ -5,10 +5,6 @@ import evaluate from './jsruntime/jinter.js';
 import sha1Hash from './polyfills/web-crypto.js';
 import package_json from '../../package.json' with { type: 'json' };
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-const Deno = globalThis.Deno as any;
-
 class Cache implements ICache {
   #persistent_directory: string;
   #persistent: boolean;

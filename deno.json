@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsxFactory": "DashUtils.createElement",
+    "jsxFragmentFactory": "DashUtils.Fragment"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["no-sloppy-imports"]
+    }
+  },
+  "unstable": ["sloppy-imports"]
+}

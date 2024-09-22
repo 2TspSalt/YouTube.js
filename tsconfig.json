@@ -107,4 +107,5 @@
     "src/**/*",
     "protos/generated"
   ],
+  "exclude": ["deno.ts", "**/deno.ts"],
 }

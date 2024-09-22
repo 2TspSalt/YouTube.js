@@ -5,6 +5,6 @@ export default {
   transform: { '^.+\\.(ts|tsx)$': 'ts-jest' },
   testTimeout: 30000,
   moduleFileExtensions: [ 'ts', 'tsx', 'js' ],
-  testMatch: [ '**/*.test.ts' ],
+  testMatch: [ '**/*.test.ts', '!**/deno/**' ],
   setupFiles: []
 };
